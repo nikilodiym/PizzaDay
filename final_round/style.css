@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&family=Rajdhani&family=Roboto&family=Roboto+Condensed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, ul{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+header{
+    padding-top: 10px;
+    padding-left: 200px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.main{
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/main_photo.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.mainn{
+    width: 100%;
+    height: 600px;
+    background-image: url(./img/menu.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.mainn h1{
+    font-size: 120px;
+    width: 40%;
+    color: white;
+    margin-left: 250px;
+    padding-top: 20px;
+    font-family: 'Crimson Text', serif;
+}
+
+.mainn p{
+    color: white;
+    margin-left: 250px;
+    font-size: 26px;
+    width: 30%;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 50px;
+}
+
+.mainn a{
+    color: black;
+    margin-left: 250px;
+    padding: 25px 55px;
+    font-size: 20px;
+    background-color: #fee746;
+    transition: all 0.3s;
+}
+
+.mainn a:hover{
+    background-color: #73cca1;
+    color: white;
+}
+
+.main h1{
+    font-size: 120px;
+    width: 40%;
+    color: white;
+    margin-left: 250px;
+    padding-top: 20px;
+    font-family: 'Crimson Text', serif;
+}
+
+.main p{
+    color: white;
+    margin-left: 250px;
+    font-size: 26px;
+    width: 30%;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 50px;
+}
+
+.main a{
+    color: black;
+    margin-left: 250px;
+    padding: 25px 55px;
+    font-size: 20px;
+    background-color: #fee746;
+    transition: all 0.3s;
+}
+
+.main a:hover{
+    background-color: #73cca1;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+    margin-left: 50px;
+}
+
+.first_screen{
+    margin-bottom: 50px;
+}
+
+.menu{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 20px;
+    padding: 120px 160px;
+    filter: brightness(0.5);
+}
+
+.menu a{
+    color: white;
+    font-size: 40px; 
+    transition: all 0.4s;
+}
+
+.menu a:hover{
+    color: yellow;
+    font-size: 40px; 
+}
+
+.menu:hover{
+    filter: none;
+    transition: all 0.5s;
+    transform: scale(0.9);
+}
+
+.salad{
+    background-image: url(./img/salads.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.pizza{
+    background-image: url(./img/pizza.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.burger{
+    background-image: url(./img/burgers.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.desert{
+    background-image: url(./img/deserts.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.drink{
+    background-image: url(./img/drinks.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.seafood{
+    background-image: url(./img/seafood.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.two_screen h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main_2{
+    background-image: url(./img/bg.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.main_2 h3{
+    padding-top: 100px;
+    font-size: 80px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: end;
+    margin-bottom: 30px;
+    margin-right: 500px;
+}
+
+.main_2 p{
+    color: white;
+    font-size: 27px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 760px;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.us{
+    color: white;
+    font-size: 27px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 760px;
+    padding: 20px 80px;
+    background-color: #73cca1;
+    transition: all 0.4s;
+}
+
+.us:hover{
+    color: black;
+    background-color: #ffe745;
+}
+
+.top_PIZZA{
+    position: relative;
+    width: 320px;
+    height: 440px;
+    box-shadow: 5px -5px 5px 5px #f6f6f6;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.top_PIZZA img{
+    margin-bottom: 20px;
+}
+
+.flexx{
+    display: flex;
+}
+
+.flexx img{
+    margin-bottom: 20px;
+}
+
+.tree_screen{
+    margin-bottom: 50px;
+}
+
+.salee h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+}
+
+.top_PIZZA h3{
+    margin-bottom: 10px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.top_PIZZA p{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.lien{
+    text-decoration: line-through;
+}
+
+.new{
+    margin-left: 10px;
+}
+
+.btn{
+    padding: 12px 24px;
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+    line-height: 1.17;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.17;
+    text-transform: uppercase;
+    border: 0 transparent;
+    padding: 15px;
+}
+
+.btn-primary{
+    background: yellow;
+    color: black;
+}
+
+.btn-primary:hover{
+    background: green;
+
+}
+
+.top_PIZZA__btns{ 
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.90);
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20%;
+}
+
+.top_PIZZA__btns .btn{
+    margin: 6px;
+}
+
+.top_PIZZA:hover .top_PIZZA__btns{
+    display: flex;
+}
+
+.about_usssss{
+    height: 300px;
+    background-image: url(./img/about_us.jpg);
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 40px;
+}
+
+.about_usssss h2{
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    font-size: 60px;
+}
+
+.info_about_us{
+    font-family: 'Rajdhani', sans-serif;
+}   
+
+.info{
+    margin-left: 100px;
+}
+
+.info h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.info p{
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.info img{
+    margin-bottom: 50px;
+}
+
+.info_about_us a{
+    color: black;
+    padding: 25px 393px;
+    font-size: 20px;
+    background-color: #fee746;
+    transition: all 0.3s;
+    margin-left: 100px;
+}
+    
+.info_about_us a:hover{
+    background-color: #73cca1;
+    color: white;
+}
+
+.form_contacts h2{
+    margin-left: 200px;
+    font-size: 40px;
+    margin-bottom: 25px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+form{
+    width: 600px;
+    margin-left: 200px;
+    
+}
+
+.phone, .email{
+    margin-left: 30px;
+}
+
+input{
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
+}
+
+.flexit{
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 15px;
+}
+
+.my_contact h3{
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.flexitt{
+    display: flex;
+    margin-bottom: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.my_contact{
+    margin-right: 100px;
+    margin-top: -50px;
+}
+
+.mnnnnnnn{
+    margin-left: 10px;
+}
+
+.top{
+    margin-bottom: 15PX;
+}
+
+.left{
+    margin-left: 15px;
+}
